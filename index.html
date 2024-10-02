@@ -2,12 +2,137 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <link rel="icon" href="/favicon.ico">
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vite App</title>
+    <link
+      rel="icon"
+      href="../frontend/assets/images/favicon/28.png"
+      type="image/x-icon"
+    />
+    <link
+      rel="shortcut icon"
+      href="../frontend/assets/images/favicon/28.png"
+      type="image/x-icon"
+    />
+    <title>Gaming & Electronics Store - LKshop.com</title>
+
+    <!--Google font-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icons -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!--Slick slider css-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../frontend/assets/css/vendors/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../frontend/assets/css/vendors/slick-theme.css"
+    />
+
+    <!-- Animate icon -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../frontend/assets/css/vendors/animate.css"
+    />
+
+    <!-- Price range icon -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../frontend/assets/css/vendors/price-range.css"
+    />
+
+    <!-- Themify icon -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../frontend/assets/css/vendors/themify-icons.css"
+    />
+
+    <!-- Bootstrap css -->
+    <!-- <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/css/vendors/bootstrap.css"
+    /> -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <!-- Theme css -->
+    <link rel="stylesheet" type="text/css" href="../frontend/assets/css/style.css" />
   </head>
   <body>
     <div id="app"></div>
     <script type="module" src="/src/main.js"></script>
+    <!-- tap to top start -->
+    <div class="tap-top">
+      <div><i class="fa fa-angle-double-up"></i></div>
+    </div>
+    <!-- tap to top end -->
+
+    <!-- latest jquery-->
+    <script src="../frontend/assets/js/jquery-3.3.1.min.js"></script>
+
+    <!-- menu js-->
+    <script src="../frontend/assets/js/menu.js"></script>
+
+    <!-- lazyload js-->
+    <script src="../frontend/assets/js/lazysizes.min.js"></script>
+
+    <!-- price range js -->
+    <script src="../frontend/assets/js/price-range.js"></script>
+
+    <!-- slick js-->
+    <script src="../frontend/assets/js/slick.js"></script>
+
+    <!-- Bootstrap js-->
+    <!-- <script src="assets/js/bootstrap.bundle.min.js"></script> -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Bootstrap Notification js-->
+    <script src="../frontend/assets/js/bootstrap-notify.min.js"></script>
+
+    <!-- Theme js-->
+    <script src="../frontend/assets/js/theme-setting.js"></script>
+    <script src="../frontend/assets/js/script.js"></script>
+
+    <script>
+      function openSearch() {
+        document.getElementById("search-overlay").style.display = "block";
+      }
+
+      function closeSearch() {
+        document.getElementById("search-overlay").style.display = "none";
+      }
+    </script>
   </body>
 </html>
